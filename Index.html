@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeneria en Sistemas</title>
+    <link rel="icon" type="img/png"  href="img/logo.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="botones.css">
+    <link rel="stylesheet" href="Responsive.css">
+</head>
+<body>
+    <div class="Contenedor">
+    <!-- barra de botones de redes sociales-->
+   <div class="redes">
+    <ul>
+       <li><a href="http://www.facebook.com" class="icon icon-facebook2"></a></li>
+       <li><a href="http://www." class="icon icon-instagram"></a></li>
+       <li><a href="http://www." class="icon icon-whatsapp"></a></li>
+       <li><a href=" https://youtu.be/MS8VoqSh3Hc" class="icon icon-youtube"></a></li>
+       <li><a href="http://www." class="icon icon-tumblr2"></a></li>
+    </ul>
+ </div>
+ <!-- Final-->
+    
+  <!-- Inicio del nav-->
+    <div class="nav">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo"> </a>
+            <nav class="nave">
+            <ul>
+             <li><a href="#">Inicio </a> </li>
+             <li><a href="#">Blog </a> </li>
+             <li><a href="#">Articulo </a> </li>
+             <li><a href="#">Ingresar</a> </li>
+            </ul>
+          </nav>
+    </div>
+     <div class="header"> 
+      <img src="img/logo.png" class="logo">
+            <header>
+                <img src="img/umg2.png" class="nombre">
+                
+ <div class="muñeco">o.o</div>
+         </header>
+     </div>
+
+     <div class="division">
+        <div  style="height: 150px; overflow: hidden;"><svg xmlns="http://www.w3.org/2000/svg" style="height: 100%; width: 100%;" viewBox="0 0 500 150" preserveAspectRatio="none meet"><path style="stroke: none; fill: rgb(255, 255, 255);" d="M 0 50 C 150 150 349.2 -49.99 500 50 L 500 150 L 0 150 Z" /></svg></div>
+      </div>
+
+    <div class="Contenedor2">
+ 
+        <aside>
+            <div class="slider">
+                <ul>
+                    <li><img src="img/p1.png" width="100%" height="625px"></li>
+                    <li><img src="img/fondo2.png" width="100%" height="625px"></li>
+                </ul>
+           
+            </div>
+        </aside>
+
+        <section class="caja">
+            <div class="borde">
+                <svg> <rect></rect></svg>
+                <div class="texto">
+                    <h2>¿Qué es programación? </h2>
+                    <br/><br/>
+                    <p>
+                       Es el proceso por medio del cual se diseña, codifica, limpia y protege el código fuente de programas computacionales.
+                       A través de la programación se dictan los pasos a seguir para la creación del código fuente de programas informáticos.
+                       De acuerdo con ellos el código se escribe, se prueba y se perfecciona.
+                       <br/><br/>
+                       El objetivo de la programación es la de crear software, que después será ejecutado de manera directa por el hardware 
+                       de la computadora, o a través de otro programa.
+                       La programación se guía por una serie de reglas y un conjunto pequeño de órdenes, instrucciones y expresiones que 
+                       tienden a parecerse a una lengua natural acotada. El lenguaje de programación, son todas aquellas reglas o normas, 
+                       símbolos y palabras particulares empleadas para la creación de un programa y con él, ofrecerle una solución a un 
+                       problema determinado.
+                       <br/> <br/>
+                        El lenguaje de programación es el responsable de que la computadora siga paso a paso las órdenes que el programador
+                        ha diseñado en el algoritmo. Con esto se entiende que el lenguaje de programación es una especie de intermediario 
+                        entre el ordenador y el usuario, para que este último pueda darle respuesta a los problemas mediante la computadora 
+                        y haciendo uso de palabras (funciones), que le interpretan dicho programa al computador para la realización de ese trabajo.
+                    </p>
+                    <img class="logo1" src="img/pro.png" >
+                </div>
+               </div>
+
+    </div>
+
+    <div class="video">
+      <!-- inicio de la api de video-->
+    <div id="player" ></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '360',
+          width: '640',
+          videoId: 'rV99lFqhp4I',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+    <!-- Fin de la api de video-->
+    </div>
+    <div class="Contenedor3">
+        <aside>
+            <div class="slider">
+                <ul>
+                    <li><img src="img/b.png" width="100%" height="625px"></li>
+                    <li><img src="img/b2.jpg" width="100%" height="625px"></li>
+                </ul>
+           
+            </div>
+        </aside>
+
+        <article class="caja2">
+            <div class="borde2">
+                <svg> <rect></rect></svg>
+                <div class="texto">
+                    <h2> ¿Qué es Base de Datos?</h2>
+                    <p>
+                        Una base de datos es un “almacén” que nos permite guardar grandes cantidades de información de forma organizada para
+                         que luego podamos encontrar y utilizar fácilmente. A continuación te presentamos una guía que te explicará el concepto
+                          y características de las bases de datos.
+                       <br/><br/>
+                       El término de bases de datos fue escuchado por primera vez en 1963, en un simposio celebrado en California, USA. Una base
+                        de datos se puede definir como un conjunto de información relacionada que se encuentra agrupada ó estructurada.
+                       Desde el punto de vista informático, la base de datos es un sistema formado por un conjunto de datos almacenados en discos
+                        que permiten el acceso directo a ellos y un conjunto de programas que manipulen ese conjunto de datos.
+                       Cada base de datos se compone de una o más tablas que guarda un conjunto de datos. Cada tabla tiene una o más columnas y 
+                       filas. Las columnas guardan una parte de la información sobre cada elemento que queramos guardar en la tabla, cada fila 
+                       de la tabla conforma un registro.
+                       <br/> <br/>
+                        El lenguaje de programación es el responsable de que la computadora siga paso a paso las órdenes que el programador
+                        ha diseñado en el algoritmo. Con esto se entiende que el lenguaje de programación es una especie de intermediario 
+                        entre el ordenador y el usuario, para que este último pueda darle respuesta a los problemas mediante la computadora 
+                        y haciendo uso de palabras (funciones), que le interpretan dicho programa al computador para la realización de ese trabajo.
+                    </p>
+                    <img class="logo" src="img/bs.png" >
+                    
+                </div>
+               </div>
+        </article>
+    </div>
+    <footer>
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.81 C149.99,149.50 271.65,-49.81 500.01,49.81 L500.01,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
+    <center>
+      <h1>UNIVERSIDAD MARIANO GALVEZ</h1>
+    </center>
+      </div>
+    
+    </footer>
+       
+    </div>
+</body>
+</html>

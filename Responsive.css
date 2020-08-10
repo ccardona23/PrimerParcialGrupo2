@@ -1,0 +1,471 @@
+@media (max-width:1292px){
+    .header{
+        width: 100%;
+        height: 100px;
+    }
+    header .nombre{
+        width: 40%;
+        padding: 3em;
+    }
+    .header .logo{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+
+      
+      }
+
+    .Contenedor2  aside{
+        margin-right: 2cm;
+    }
+    .Contenedor2 .borde{
+        width: 650px;
+        height: 700px;
+    }
+    .Contenedor3 {
+        height: 900px;
+    }
+    .Contenedor3 .borde2{
+        width: 650px;
+        height: 760px;
+    }
+    .video #player{
+        width: 640px;
+        height: 350px;
+        margin-left: 11.5cm; 
+    }
+    .borde .texto .logo1{
+        display: none;
+    }
+
+    .Contenedor3 .borde2 .texto .logo{
+        display: none;
+    }
+   
+    .nav a {
+    font-size: 22px;
+    }
+
+    rect{
+        display: none;
+    }
+}
+@media (max-width:1168px){
+    .Contenedor2 {
+        height: 900px;
+    }
+    .Contenedor2 .borde{
+        width: 590px;
+        height: 800px;
+    }
+
+    .Contenedor3 .borde2{
+        width: 590px;
+        height: 800px;
+    }
+    .video #player{
+        width: 610px;
+        height: 350px;
+        margin-left: 10.5cm; 
+    }
+    rect{
+        display: none;
+    }
+
+}
+
+@media (max-width:1091px){
+    .Contenedor2 {
+        height: 900px;
+    }
+    .Contenedor2 .borde{
+        width: 550px;
+        height: 800px;
+    }
+    
+    .Contenedor3 {
+        height: 1000px;
+    }
+    .Contenedor3 .borde2{
+        width: 550px;
+        height: 850px;
+    }
+    .video #player{
+        width: 550px;
+        height: 350px;
+        margin-left: 10.5cm; 
+    }
+    rect{
+        display: none;
+    }
+
+}
+
+@media (max-width:1042px){
+    .Contenedor2 {
+        height: 950px;
+    }
+   
+    .Contenedor2 .borde{
+        width: 530px;
+        height: 850px;
+    }
+    
+    .Contenedor3 .borde2{
+        width: 530px;
+        height: 910px;
+        margin-left: 0.5cm;
+    }
+    .video #player{
+        width: 530px;
+        height: 350px;
+        margin-left: 10cm; 
+    }
+    .Contenedor2  aside{
+        width: 23%;
+        height: 620px;
+        float: left;
+        padding-left: 0px;
+        padding: 0px;
+    }
+    
+}
+
+@media  (max-width:994px){
+
+    .header .logo{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    
+      
+      }
+    .Contenedor2 {
+        height: 990px;
+    }
+   
+    .Contenedor2 .borde{
+        width: 520px;
+        height: 850px;
+    }
+    
+    .Contenedor3 {
+        height: 1100px;
+    }
+    .Contenedor3 .borde2{
+        width: 490px;
+        height: 980px;
+        margin-left: 0.5cm;
+    }
+
+}
+@media(max-width:990px){
+    .header .logo{
+       display: none;
+      }
+
+.Contenedor2  aside{
+    display: none;
+}
+
+.Contenedor3  aside{
+    display: none;
+}
+
+.Contenedor2 .borde{
+    width: 850px;
+    height: 850px;
+}
+
+.Contenedor3 .borde2{
+    width: 850px;
+    height: 850px;
+}
+
+.video #player{
+    width: 530px;
+    height: 350px;
+    margin-left: 5cm; 
+}
+
+.redes{
+    font-size: 1.2rem;
+}
+}
+@media(max-width:935px){
+    .redes{
+        display: none;
+    }
+    .borde .texto p {
+        font-size: 25px;
+    }
+    .Contenedor3 .borde2 .texto p {
+        font-size: 24px;
+    }
+}
+@media(max-width:987px){
+    .Contenedor2 {
+        height: 810px;
+    }
+    .Contenedor2 .borde{
+        width: 800px;
+        height: 650px;
+    } 
+
+    .Contenedor3 {
+        height: 870px;
+    }
+    .Contenedor3 .borde2{
+        width: 800px;
+        height: 690px;
+    }
+    @media(max-width:943px){
+
+        .header .logo{
+            display: none;
+           }
+        .Contenedor2{
+         height:1050px ;
+        }
+        .Contenedor2 .borde{
+            width: 700px;
+            height: 950px;
+            margin-left: 130px;
+        } 
+
+        .Contenedor3{
+            height: 1100px;
+        }
+        .Contenedor3 .borde2{
+            width: 700px;
+            height: 970px;
+            margin-left: 130px;
+        }
+    }
+
+}
+@media(max-width:847px){
+    .Contenedor2 .borde{
+        width: 700px;
+        height: 950px;
+        margin-left: 90px;
+    } 
+    .Contenedor3 .borde2{
+        width: 700px;
+        height: 950px;
+        margin-left: 90px;
+    } 
+}
+
+@media(max-width:800px){
+    .Contenedor2 .borde{
+        width: 700px;
+        height: 950px;
+        margin-left: 70px;
+    } 
+    .Contenedor3 .borde2{
+        width: 700px;
+        height: 950px;
+        margin-left: 70px;
+    } 
+}
+@media(max-width:774px){
+    .Contenedor2 .borde{
+        width: 700px;
+        height: 950px;
+        margin-left: 40px;
+    } 
+    .Contenedor3 .borde2{
+        width: 700px;
+        height: 950px;
+        margin-left: 40px;
+    } 
+    .video #player{
+        width: 530px;
+        height: 350px;
+        margin-left: 3cm; 
+    }
+}
+@media(max-width:744px){
+    .Contenedor2 .borde{
+        width: 700px;
+        height: 950px;
+        margin-left: 20px;
+    } 
+    .Contenedor3 .borde2{
+        width: 700px;
+        height: 950px;
+        margin-left: 20px;
+    } 
+    .video #player{
+        width: 530px;
+        height: 350px;
+        margin-left: 2cm; 
+    }
+}
+@media(max-width:723px){
+    .Contenedor2 .borde{
+        width: 700px;
+        height: 950px;
+        margin-left: 10px;
+    } 
+    .Contenedor3 .borde2{
+        width: 700px;
+        height: 950px;
+        margin-left: 10px;
+    } 
+    .video #player{
+        width: 530px;
+        height: 350px;
+        margin-left: 1.5cm; 
+    }
+    .header .nombre{
+        width: 400px;
+        width: 400px;
+    }
+    .nav a {
+        font-size: 20px;
+        }
+}
+@media(max-width:712px){
+    .header .nombre{
+        width: 400px;
+        width: 400px;
+    }
+
+    .Contenedor2{
+        height:750px ;
+       }
+
+    .Contenedor2 .borde{
+        width: 650px;
+        height: 650px;
+        margin-left: 10px;
+    } 
+    .Contenedor3{
+        height: 800px; 
+    }
+    .Contenedor3 .borde2{
+        width: 650px;
+        height: 690px;
+        margin-left: 10px;
+    } 
+    .video #player{
+        width: 530px;
+        height: 350px;
+        margin-left: 1.5cm; 
+    }
+    .borde .texto p {
+        font-size: 18px;
+    }
+
+    .Contenedor3 .borde2 .texto p{
+        font-size: 18px;
+    }
+    .nave ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+    footer{
+        height: 130px;
+
+    }
+    .nav a {
+        font-size: 20px;
+        }
+}
+@media(max-width:660px){
+    .slider{
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+        height: 480px;
+    }
+     
+
+
+    .Contenedor2{
+        height:650px ;
+       }
+    .Contenedor2  aside{
+        display: inline;
+        }
+    .Contenedor2 aside{
+        width: 500px;
+        height: 500px;
+    }
+        .Contenedor2 .borde{
+           display: none;
+        } 
+     .Contenedor3{
+         height:650px ;
+        }
+    .Contenedor3  aside{
+        display: inline;
+        }
+    .Contenedor3 aside{
+        width: 500px;
+        height: 500px;
+    }
+    .Contenedor3 .borde2{
+           display: none;
+        } 
+
+        .video #player{
+            width: 450px;
+            height: 350px;
+            margin-left: 1cm; 
+        }
+        .nav a {
+            font-size: 15px;
+            }
+}
+@media(max-width:572px){
+    .Contenedor2{
+        height:550px ;
+       }
+    .Contenedor2 aside{
+        width: 400px;
+        height: 400px;
+    }
+    .Contenedor3{
+        height:550px ;
+       }
+    .Contenedor3 aside{
+        width: 400px;
+        height: 400px;
+    }
+    .video #player{
+        width: 420px;
+        height: 350px;
+        margin-left: 0.5cm; 
+    }
+}
+    @media(max-width:495px){
+        .header .nombre{
+            width: 250px;
+            height: 50px;
+        }
+        .Contenedor2{
+            height:450px ;
+           }
+        .Contenedor2 aside{
+            width: 300px;
+            height: 300px;
+        }
+        .Contenedor3{
+            height:450px ;
+           }
+        .Contenedor3 aside{
+            width: 300px;
+            height: 300px;
+        }
+        .video #player{
+            width: 390px;
+            height: 310px;
+            margin-left: 0.5cm; 
+        }
+        footer{
+           height: 50px;
+        }
+    }

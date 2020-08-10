@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Contenedor{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Botones de redes sociales*/
+.redes{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 200;
+   }
+   .redes ul {
+     list-style: none;
+   }
+   .icon{
+     color: white;
+     text-decoration: none;
+     padding: 0.7rem;
+     display: flex;
+     transition: all 1.s;
+   } 
+   
+    
+    .icon-facebook2 {
+      background: #2E406E;
+      border-radius: 1rem 0 0 0;
+     }
+    .icon-instagram {
+      background: #ac0000;
+     }
+    .icon-whatsapp {
+      background: #08c408;
+     }
+    .icon-youtube {
+      background: #d40000;
+     }
+    .icon-tumblr2 {
+     border-radius: 1rem 0 0 0;
+      background: #005fec;
+     }
+   
+   .icon:hover{
+     padding-right: 3rem;
+     border-radius: 1rem 0 0 1rem;
+     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+   }
+   /* Fin de Botones de redes sociales*/
+
+/* Inicio del Navegador*/
+.nav{
+    background: rgb(5, 13, 88);
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 0;
+
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.nave ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+.nave ul li{
+    display: inline-block;
+}
+.nave ul li a {
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: all 0.4s linear;
+   
+
+}
+.nave ul li a:hover {
+    background: rgb(97, 211, 240);
+    border-radius: 5px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(0.99);
+        box-shadow: 0 0 0 0 rgb(256, 256, 256, 0.1);
+    }
+    70%{
+       transform: scale(1);
+       box-shadow: 0 0 0 25px rgb(256, 256, 256, 0.1);
+   }
+   100%{
+       transform: scale(0.99);
+       box-shadow: 0 0 0 0 rgb(256, 256, 256, 0.1);
+   }
+}
+/* Fin del Navegador*/
+
+.header{
+    width: 100%;
+    height: 200px;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header .logo{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-bottom: 50px;
+  margin-left: 25px;
+
+}
+.header .logo{
+    animation-name: logo;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes logo{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.4);
+    }
+}
+header .nombre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5em;
+    background-repeat: no-repeat;
+  }
+  
+  header .nombre{
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes desplazamiento{
+    0%{
+        margin-right: 360px;
+    }
+    30%{
+        margin-right: 100px;
+    }
+    100%{
+        margin-right: 360px;
+    }
+  }
+
+
+  .division{
+    width: 100%;
+    height: 100px;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+.Contenedor2{
+    width: 100%;
+    height: 800px;
+    background: darkorange;
+}
+
+
+.Contenedor2  aside{
+    width: 20%;
+    height: 620px;
+    float: left;
+    padding-left: 0px;
+    padding: 8px;
+    display: block;
+    margin-left: 1.2cm;
+    margin-top: 2.5cm;
+    margin-right: 3cm;
+   
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;  
+    box-shadow: 0 20px 30px rgba(0, 0, 12, 0.30);
+  }
+
+  .Contenedor2 .borde{
+      width: 750px;
+      height: 650px;
+      float: left;
+      margin-left: 1cm;
+      margin-right: 70px;
+      margin-bottom: 20px;
+      position: relative;
+      margin-top: 2cm;
+  
+  }
+  
+.borde .texto{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border: 2px solid rgb(175, 23, 3);
+      padding: 10px;
+      color: black;
+      text-align: justify;
+  }
+  .borde .texto p{
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right:10px;
+  }
+  .borde.texto h2{
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: black;
+  }
+  
+  .borde .texto h2{
+   font-size: 20px;
+   text-align: center;
+  }
+  .borde .texto .logo1{
+      width: 110px;
+      height: 110px;
+      margin-left: 630px;
+      margin-top: 8px;
+  }
+  
+  svg,rect{
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     fill: transparent;
+  }
+  rect{
+     stroke: rgb(243, 243, 243);
+     stroke-width: 4;
+     stroke-dasharray: 400;
+     animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate
+  {
+     0%{
+         stroke-dashoffset:800;
+     }
+     100%{
+         stroke-dashoffset: 0;
+     }
+  
+  }
+  
+  
+.video{
+    width: 100%;
+    height: 400px;
+    background: darkred;
+}
+
+.video #player{
+    width: 730px;
+    height: 350px;
+    margin-left: 13cm;
+    margin-top: 0.5cm;
+    float: left;
+    padding: 8px;
+
+}
+
+.Contenedor3{
+    width: 100%;
+    height: 800px;
+    background: darkturquoise;
+}
+
+.Contenedor3  aside{
+    width: 20%;
+    height: 620px;
+    float: left;
+    padding-left: 0px;
+    padding: 8px;
+    display: block;
+    margin-left: 1.2cm;
+    margin-top: 2.5cm;
+    margin-right: 3cm;
+  
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;  
+    box-shadow: 0 20px 30px rgba(0, 0, 12, 0.30);
+
+  }
+
+.Contenedor3 .borde2{
+    width: 750px;
+      height: 650px;
+      float: left;
+      margin-left: 1cm;
+      margin-right: 70px;
+      margin-bottom: 20px;
+      position: relative;
+      margin-top: 2cm;
+}
+
+.Contenedor3 .borde2 .texto{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 2px solid blue;
+    padding: 10px;
+    color: black;
+    text-align: justify;
+}
+.Contenedor3 .borde2 .texto p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.Contenedor3 .borde2 .texto h2{
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: black;
+}
+
+.Contenedor3 .borde2 .texto h2{
+ font-size: 20px;
+ text-align: center;
+}
+.Contenedor3 .borde2 .texto .logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 630px;
+    margin-bottom: 1cm;
+}
+
+svg,rect{
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   fill: transparent;
+}
+rect{
+   stroke: rgb(190, 0, 0);
+   stroke-width: 4;
+   stroke-dasharray: 400;
+   animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+   0%{
+       stroke-dashoffset:800;
+   }
+   100%{
+       stroke-dashoffset: 0;
+   }
+
+}
+
+footer .division2{
+    width: 100%;
+    height: 100px;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+ }
+
+footer {
+    float:left;
+    width: 100%;;
+    height: 250px;
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:80px;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .muñeco {
+    background: #4a4cb6;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animar{
+    0% {
+      right: 0;
+      top: 5;
+    }
+    10% {
+      right:  5rem;
+      top: 10rem;
+      color: #9b59b6;
+    }
+    30% {
+      top: 10rem;
+      right:  5rem;
+      color: white;
+    }
+    60%{
+      top: 10rem;
+      right:  0;
+      color: #9b59b6;
+    }
+    100% {
+      top: 0;
+      right:  0;
+    }
+  }
+
+  .slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+padding: 0;
+width: 400%;
+animation: cambio 5s infinite alternate;
+}
+.slider li{
+    width: 100%;
+list-style: none;
+}
+.slider img{
+    width: 50%;
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    
+}
